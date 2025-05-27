@@ -1,5 +1,7 @@
 # Weather Calculator MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@nisa439/weather-calculator-mcp)](https://smithery.ai/server/@nisa439/weather-calculator-mcp)
+
 A comprehensive Model Context Protocol (MCP) server that provides weather information, exchange rates, and calculator functionality.
 
 ## Features
@@ -54,6 +56,14 @@ Calculate 15 * 8
 ```
 
 ## Installation
+
+### Installing via Smithery
+
+To install weather-calculator-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nisa439/weather-calculator-mcp):
+
+```bash
+npx -y @smithery/cli install @nisa439/weather-calculator-mcp --client claude
+```
 
 ### Via NPM (Coming Soon)
 ```bash
