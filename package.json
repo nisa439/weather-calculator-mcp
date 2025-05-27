@@ -1,0 +1,41 @@
+{
+  "name": "weather-calculator-mcp",
+  "version": "1.0.0",
+  "description": "A comprehensive MCP server with weather, exchange rates, and calculator tools",
+  "main": "index.js",
+  "bin": {
+    "weather-calculator-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "weather",
+    "calculator",
+    "exchange-rates",
+    "api",
+    "claude",
+    "anthropic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/weather-calculator-mcp.git"
+  },
+  "mcp": {
+    "mcpVersion": "2024-11-05",
+    "server": {
+      "command": "npx",
+      "args": ["weather-calculator-mcp"]
+    }
+  }
+}
